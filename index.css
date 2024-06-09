@@ -1,0 +1,24 @@
+/* Design code for body */
+body{
+    background-color: black;
+    text-align: center;
+}
+/* Design code for div holds H1 */
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    width: 97vw;
+}
+/* Design code for H1 */
+#result{
+    font-size: 90px;
+    color: white;
+}
+/* responsive design code */
+@media only screen and (max-width:500px){
+    #result{
+        font-size: 30px;
+    }
+}
